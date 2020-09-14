@@ -1,3 +1,30 @@
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
 	font-weight: bold;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+table {
+	text-align: center;
+	margin: 5px auto;
+}
+.vertical {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.horizontal {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.char {
+	font-size: 2.5rem;
+	font-weight: 400;
 }
