@@ -15,23 +15,23 @@
     <h1>Tic Tac Toe</h1>
     <table>
         <tr>
-            <td class="char" id=0>O</td>
-            <td class="char vertical" id=1>X</td>
-            <td class="char" id=2>O</td>
+            <td onClick=clicked(id) class="char" id=0></td>
+            <td onClick=clicked(id) class="char vertical" id=1></td>
+            <td onClick=clicked(id) class="char" id=2></td>
         </tr>
         <tr>
-            <td id=3 class="char horizontal">X</td>
-            <td id=4 class="char vertical horizontal">X</td>
-            <td id=5 class="char horizontal">O</td>
+            <td onClick=clicked(id) id=3 class="char horizontal"></td>
+            <td onClick=clicked(id) id=4 class="char vertical horizontal"></td>
+            <td onClick=clicked(id) id=5 class="char horizontal"></td>
         </tr>
         <tr>
-            <td id=6 class="char">X</td>
-            <td id=7 class="char vertical">X</td>
-            <td id=8 class="char">O</td>
+            <td onClick=clicked(id) id=6 class="char"></td>
+            <td onClick=clicked(id) id=7 class="char vertical"></td>
+            <td onClick=clicked(id) id=8 class="char"></td>
         </tr>
     </table>
 
-    <button class="replay">Replay</button>
+    <button id="replay" onClick="startGame()">Replay</button>
     <script src="app.js"></script>
 </body>
 
