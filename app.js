@@ -8,7 +8,6 @@ var count = 0;
 function clicked(id) {
 	if (count % 2 === 0) {
 		document.getElementById(id).innerHTML = 'X';
-		board[i][j] = human;
 		count = count + 1;
 		console.log(id);
 		bestMove();
