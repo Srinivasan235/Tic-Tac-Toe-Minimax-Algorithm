@@ -1,8 +1,24 @@
 body {
-	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-image: linear-gradient(13deg, #e8ffc1, #eff48e, #a5ecd7, #726a95);
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem;
+	width: 50%;
+}
+button {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+container {
+	align-items: center;
+}
 h1 {
 	font-weight: bold;
 }
@@ -13,7 +29,9 @@ td {
 }
 table {
 	text-align: center;
+	vertical-align: auto;
 	margin: auto;
+	margin-top: 150px;
 }
 .vertical {
 	border-left: 2px solid black;
@@ -27,4 +45,11 @@ table {
 .char {
 	font-size: 2.5rem;
 	font-weight: 400;
+}
+a {
+	color: white;
+}
+
+.info {
+	background-color: whitesmoke;
 }
