@@ -1,4 +1,4 @@
-# Tic-Tac-Toe-Minimax-Alogrithm
+# Tic-Tac-Toe-Minimax-Algorithm
 Minimax is a backtracking algorithm that is used in decision making and game theory to find the optimal move for a player, assuming that your opponent also plays optimally.
 
 
